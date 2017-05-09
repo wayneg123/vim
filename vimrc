@@ -19,7 +19,7 @@ if !filereadable(vundle_readme)
     echo "Installing Vundle..."
     echo ""
     silent !mkdir -p ~/.vim/bundle
-    silent !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
+    silent !git clone http://dhclearn.ticp.io/wayne/Vundle.vim.git ~/.vim/bundle/vundle
     let iCanHazVundle=0
 endif
 
